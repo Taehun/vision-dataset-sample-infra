@@ -1,0 +1,6 @@
+dataflow.googleapis.com
+cloudfunctions.googleapis.com
+cloudbuild.googleapis.com
+pubsub.googleapis.com
+firestore.googleapis.com
+bigquery.googleapis.com
