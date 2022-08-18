@@ -15,3 +15,11 @@ variable "zone" {
   type    = string
   default = "asia-northeast3-a"
 }
+
+variable "organization" {
+  type    = string
+}
+
+variable "workspace" {
+  type    = string
+}

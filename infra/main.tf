@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = var.organization
+
+    workspaces {
+      name = var.workspace
+    }
+  }
   required_providers {
     google = {
       source  = "hashicorp/google"
